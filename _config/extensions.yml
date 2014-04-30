@@ -1,0 +1,28 @@
+---
+Name: mysite
+After: 'framework/*','cms/*'
+---
+
+Product:
+  extensions:
+    - ResourseDecorator
+
+Product_Controller:
+  extensions:
+    - ResoursesExtension
+
+Brand:
+  extensions:
+    - ResourseDecorator
+
+Brand_Controller:
+  extensions:
+    - ResoursesExtension
+
+Support:
+  extensions:
+    - ResourseDecorator
+
+Support_Controller:
+  extensions:
+    - ResoursesExtension
