@@ -1,0 +1,17 @@
+{
+	"name": "nimeso/silverstripe-page-resources",
+	"description": "Add resources to a page",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe"],
+	"license": "BSD",
+	"authors": [{
+		"name": "Jamie Barker",
+		"email": "nimeso@gmail.com"
+	}],
+	"extra": {
+		"installer-name": "page_resources"
+	},
+	"require": {
+		"silverstripe/cms": "3.1.x"
+	}
+}
